@@ -5,7 +5,7 @@
   "description": "chat application with socket.io",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index"
   },
   "author": "Asutosh",
   "license": "ISC",
