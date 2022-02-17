@@ -61,6 +61,6 @@ io.on('connection', socket => {
     });
 })
 
-const PRT = 3000 || process.env.PORT
+const PRT = process.env.PORT || 3000;
 
-index.listen(PRT, () => console.log(`server running on port ${PORT}`));
+index.listen(PRT, () => console.log(`server running on port ${PRT}`));
