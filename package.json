@@ -5,8 +5,8 @@
   "description": "chat application with socket.io",
   "main": "index.js",
   "scripts": {
-    "start": "node index",
-    "dev": "gh-pages -d index"
+    "start": "node index.js",
+    "dev": "gh-pages -d index.js"
   },
   "author": "Asutosh",
   "license": "ISC",
