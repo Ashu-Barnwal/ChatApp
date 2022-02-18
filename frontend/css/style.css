@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');	
 
 :root {
 	--dark-color-a: #2a2b30;
@@ -121,6 +121,9 @@ a {
 	padding: 20px 30px;
 	background-color: var(--dark-color-a);
 	border-radius: 0px 0px 15px 15px;
+}
+.chat-form-container input{
+	border-radius: 15px;
 }
 
 .chat-form-container form {
