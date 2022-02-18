@@ -122,9 +122,6 @@ a {
 	background-color: var(--dark-color-a);
 	border-radius: 0px 0px 15px 15px;
 }
-.chat-form-container input{
-	border-radius: 15px;
-}
 
 .chat-form-container form {
 	display: flex;
@@ -133,7 +130,9 @@ a {
 .chat-form-container input[type='text'] {
 	font-size: 16px;
 	padding: 5px;
+	padding-left: 15px;
 	height: 40px;
+	border-radius: 15px;
 	flex: 1;
 }
 
